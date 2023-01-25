@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_widgets_code_snippets",
+  "info": {
+    "displayName": "Code Snippet"
+  },
+  "options": {},
+  "attributes": {
+    "codeSnippet": {
+      "type": "text"
+    }
+  }
+}

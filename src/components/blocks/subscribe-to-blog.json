@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_widgets_subscribe_to_blogs",
+  "info": {
+    "displayName": "Subscribe To Blog"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "callToAction": {
+      "type": "string"
+    },
+    "congratTextHeadline": {
+      "type": "string"
+    },
+    "congratTextSubheading": {
+      "type": "string"
+    }
+  }
+}

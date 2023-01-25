@@ -1,0 +1,38 @@
+{
+  "name": "stack-blog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi build && strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@notum-cz/strapi-plugin-content-versioning": "^0.4.3",
+    "@notum-cz/strapi-plugin-record-locking": "^0.3.0",
+    "@strapi/plugin-i18n": "4.5.6",
+    "@strapi/plugin-seo": "^1.7.4",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/strapi": "4.5.6",
+    "better-sqlite3": "7.4.6",
+    "moment": "^2.29.4",
+    "strapi-plugin-import-export-entries": "^1.13.0",
+    "strapi-plugin-random-sort": "^0.0.3",
+    "strapi-plugin-transformer": "^2.0.2"
+  },
+  "author": {
+    "name": "Adedoyin Akande"
+  },
+  "strapi": {
+    "uuid": "c091d210-6a02-43f6-b787-b6992f226bf1"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

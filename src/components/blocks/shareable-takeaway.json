@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_widgets_shareable_takeaways",
+  "info": {
+    "displayName": "Shareable Takeaway"
+  },
+  "options": {},
+  "attributes": {
+    "shareableTakeaway": {
+      "type": "text"
+    }
+  }
+}

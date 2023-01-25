@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_authors",
+  "info": {
+    "singularName": "post-author",
+    "pluralName": "post-authors",
+    "displayName": "Post Authors",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
