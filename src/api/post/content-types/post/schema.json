@@ -53,9 +53,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -97,6 +95,17 @@
       },
       "component": "shared.seo"
     },
+    "postDate": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date"
+    },
     "block": {
       "pluginOptions": {
         "versions": {
@@ -114,6 +123,7 @@
         "blocks.subscribe-to-blog",
         "blocks.code-snippet",
         "blocks.video",
+        "blocks.video-embed",
         "blocks.image"
       ],
       "required": true

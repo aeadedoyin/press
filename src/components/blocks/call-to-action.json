@@ -1,7 +1,8 @@
 {
   "collectionName": "components_widgets_call_to_actions",
   "info": {
-    "displayName": "Call To Action"
+    "displayName": "Call To Action",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,7 @@
       "type": "string"
     },
     "ctaButtonLink": {
-      "type": "text"
+      "type": "string"
     },
     "ctaButtonNewPage": {
       "type": "boolean"

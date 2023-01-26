@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_video_embed",
+  "info": {
+    "displayName": "Video Embed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "embedLink": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

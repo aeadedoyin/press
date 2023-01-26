@@ -9621,6 +9621,11 @@ strapi-plugin-import-export-entries@^1.13.0:
     monaco-editor-webpack-plugin "7.0.1"
     react-singleton-hook "3.3.0"
 
+strapi-plugin-oembed@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-oembed/-/strapi-plugin-oembed-1.0.1.tgz#7689dac43e08f8e4a4115f1b54e330d957acb287"
+  integrity sha512-h5w2Jm5nB5ph98TKcp5hLPnPoPR2XvTw/icB4WyLxnuMt8UTh+biOXE6RWlQBq6GUUt3A1tZ019pMGuROgUGIw==
+
 strapi-plugin-random-sort@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/strapi-plugin-random-sort/-/strapi-plugin-random-sort-0.0.3.tgz#3068f9869a8ae8b2748e54cef8c14763f9e70adb"
