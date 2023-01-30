@@ -20,7 +20,7 @@ module.exports = createCoreController(
 
       // Call the default find method to get the data
       // and get one since the original scope is findOne
-      let { data, meta } = await super.find(ctx);
+      let { data } = await super.find(ctx);
       if (data.length > 0) {
         data = data[0];
       } else {
@@ -28,7 +28,7 @@ module.exports = createCoreController(
       }
 
       // Set the response body
-      return { data, meta };
+      return { data };
     },
   })
 );
