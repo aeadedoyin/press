@@ -21,18 +21,13 @@
     "avatar": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ]
-    },
-    "Code": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.code-snippet"
     }
   }
 }
