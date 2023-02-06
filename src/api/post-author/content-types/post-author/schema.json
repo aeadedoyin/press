@@ -28,6 +28,11 @@
         "videos",
         "audios"
       ]
+    },
+    "Code": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.code-snippet"
     }
   }
 }

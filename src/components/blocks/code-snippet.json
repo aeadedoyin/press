@@ -1,12 +1,26 @@
 {
   "collectionName": "components_widgets_code_snippets",
   "info": {
-    "displayName": "Code Snippet"
+    "displayName": "Code Snippet",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "codeSnippet": {
       "type": "text"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "php",
+        "ts",
+        "js",
+        "css",
+        "text",
+        "vue",
+        "react"
+      ],
+      "default": "text"
     }
   }
 }
